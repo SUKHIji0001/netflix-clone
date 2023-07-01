@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+
+* {
+  font-family: "Oswald", sans-serif;
+  margin: 0;
+  padding: 0%;
+}
+
+.background {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 84.2rem;
+  height: 49rem;
+  background-color: rgba(0, 0, 0, 0.185);
+  background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/530fc327-2ddb-4038-a3f0-2da2d9ccede1/9c547c8a-e707-4bdb-bdbc-843f134dd2a6/IN-en-20230619-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+}
+
+/* navbar*/
+.navbar {
+  display: flex;
+  width: 100%;
+  height: 8rem;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav22 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  height: 5rem;
+  background-color: transparent;
+}
+
+.logo {
+  width: 207px;
+  padding: 12px;
+}
+
+.sinin {
+  display: FLEX;
+  margin: 25px;
+  padding: 3px;
+  width: 73px;
+  height: 42px;
+  border-radius: 5px;
+  background-color: #e50914;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+/* nav-headings */
+
+.NAV-heading {
+  display: grid;
+  width: 75rem;
+  height: 40rem;
+
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.heading1 {
+  height: 7rem;
+  width: 64rem;
+  color: #ffffff;
+  font-size: 35px;
+}
+
+.heading2 {
+  margin: -234px 0px 0px 229px;
+  width: 35rem;
+
+  color: #ffffff;
+  font-size: 42px;
+}
+
+.heading3 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #ffffff;
+  font-size: 28px;
+  margin: -272px 0 0 127px;
+  width: fit-content;
+}
+
+/* serchbar */
+.serchbar {
+  margin: -425px 0 0 169px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 702px;
+  height: 96px;
+}
+
+input {
+  width: 506px;
+  height: 56px;
+  border-radius: 8px;
+  font-size: inherit;
+  background-color: #15131a;
+}
+
+.getstarted {
+  display: flex;
+  width: 143px;
+  height: 60px;
+  border-radius: 12px;
+  background-color: #e50914;
+  color: #ffffff;
+  justify-content: center;
+  align-items: center;
+}
+
+/* main    111111111111111111111111111 */
+
+.seprate {
+  background-color: #15131aa2;
+  height: 0.5em;
+}
+
+.main-box-1 {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  display: grid;
+  background-color: #000000;
+  height: 33rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-heading-1 {
+  margin: 24px 0px 12px 20px;
+  color: #e50914;
+  font-size: 60px;
+}
+
+.main-box-1-centre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-heading-2 {
+  color: #e50914;
+  font-size: 24px;
+}
+
+.main-img-1 {
+  background-image: url(https://images.ctfassets.net/4cd45et68cgf/5y7i4snzpqkr2oHRCRAkN4/c144749aa0df745e43367744af149f66/Android_Collage_1920x1080__UCAN_En.jpg);
+  background-size: contain;
+
+  background-repeat: no-repeat;
+  width: 524px;
+  height: 295px;
+}
+
+.footer {
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #221e1e;
+  height: 4rem;
+}
